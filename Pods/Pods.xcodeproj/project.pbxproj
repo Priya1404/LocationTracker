@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C70628F5B8F895FD5F77CA2F9691EFB /* Pods-LocationTracker-LocationTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6505FA665A3DEFF5F93FE653CB7A0E83 /* Pods-LocationTracker-LocationTrackerUITests-dummy.m */; };
+		2C78BF93D39AB3565E4827960B2C953E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		30528E9F78AD793A9A7CEB6C6A8A054F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		320E018022758AFD782991C7D8854DB1 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3466BDF1C63EE297562FE8F1823FD /* TegKeychainConstants.swift */; };
+		40B11184CA3994A9B777CE0E3635F25A /* Pods-LocationTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7F07E7604AD0EA15062B7782202FFC /* Pods-LocationTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485A776035D4B1EF97E8AE0E95A66502 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CDCCBA5A8118998F805DDE346BFA6 /* KeychainSwiftAccessOptions.swift */; };
+		4B255EB0716A1BB473E696C20812C697 /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A8EBB8429A13FD79B471B95E12020 /* KeychainSwift-dummy.m */; };
+		4DC6C132AEF3E02BDD5ABC89333233B3 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F6FC730B87B16A7F7A0A92CF2EB13 /* KeychainSwift.swift */; };
+		7B87C1AE7386E73ABC086FE8DFC99C91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A07E6B1B5583541C5FC00D6C83FBFC97 /* Pods-LocationTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0653FF7B30F6A1BADF1618799FA9569D /* Pods-LocationTrackerTests-dummy.m */; };
+		C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9CF1441562AF1808C78D1B0BB5941B /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74D2F65159167A543405834E1EE09B5 /* Pods-LocationTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DCDA78EDE85E17634AD866E03F3A3E /* Pods-LocationTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A1A7FA15B1C9E662FCBDB321D59F2C /* Pods-LocationTracker-LocationTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B558857E5AF75ECE18F02B0EB00F59E2 /* Pods-LocationTracker-LocationTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6412E0B5353AD8070E5BFF9D4CD13B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E9E2BFAEDC35BCC682F46198AD138DB9 /* Pods-LocationTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CF4C5B2D6FD090471BED3B4E341FF9 /* Pods-LocationTracker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F353FFC3AC35BB7FFE4F9729C7E794D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		9E59A4639C5025D44E49B956F304B512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 347A47A18025826BB135A03589DCF3FB;
+			remoteInfo = "Pods-LocationTracker";
+		};
+		F0AB8B66F95E28BF3B6617FA09D097CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DCDA78EDE85E17634AD866E03F3A3E /* Pods-LocationTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationTracker-umbrella.h"; sourceTree = "<group>"; };
+		0653FF7B30F6A1BADF1618799FA9569D /* Pods-LocationTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		09AFB6417A66A2201318A579C231B2AA /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
+		0FFCC57DF26F86EEF0FB5207BF1A70CE /* Pods_LocationTracker_LocationTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationTracker_LocationTrackerUITests.framework; path = "Pods-LocationTracker-LocationTrackerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17456078214F01FDA3C509F1DFB5475F /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		1AD8A828EC9A711F99C6B2D5551C3DA9 /* Pods-LocationTracker-LocationTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationTracker-LocationTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		1B576670ACCF0D684DD5858270F477B1 /* Pods_LocationTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationTracker.framework; path = "Pods-LocationTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9CF1441562AF1808C78D1B0BB5941B /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		2513265C74925A28EB1092C976352F25 /* Pods-LocationTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28AFE9BD6E78592C2BFDF4A3DAA5E5B1 /* Pods-LocationTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C0A8EBB8429A13FD79B471B95E12020 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		2E84AFE1283A893D3E2981697835B3A9 /* Pods-LocationTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		34113253E0200D77323BFC6BF6FD9CA2 /* Pods-LocationTracker-LocationTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationTracker-LocationTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3C4F6FC730B87B16A7F7A0A92CF2EB13 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+		3C8CDCCBA5A8118998F805DDE346BFA6 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		406A0786485813B9DB5C7DC50A81D221 /* Pods-LocationTracker-LocationTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationTracker-LocationTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E96F66B3B79EB7408D381BCA33776EF /* Pods-LocationTracker-LocationTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationTracker-LocationTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BAD78CB52042CEF27B79F82E99C1704 /* Pods_LocationTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationTrackerTests.framework; path = "Pods-LocationTrackerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6505FA665A3DEFF5F93FE653CB7A0E83 /* Pods-LocationTracker-LocationTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationTracker-LocationTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		69EBD17B5C91E87886274F11961FBC96 /* Pods-LocationTracker-LocationTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationTracker-LocationTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7394C35185B5732A565100F733CB2556 /* Pods-LocationTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		748F08E9E82ADABA9B103EE75E01B443 /* Pods-LocationTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		77E62CEEF9C363495FBFC4ED1F86B785 /* Pods-LocationTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationTracker.release.xcconfig"; sourceTree = "<group>"; };
+		81CF4C5B2D6FD090471BED3B4E341FF9 /* Pods-LocationTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationTracker-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7F07E7604AD0EA15062B7782202FFC /* Pods-LocationTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		A1361008A10AC1D86942D7FE6FA36606 /* Pods-LocationTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationTracker-Info.plist"; sourceTree = "<group>"; };
+		A2802B6BDE44CEFBD8763C6F5BBAACBC /* Pods-LocationTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B558857E5AF75ECE18F02B0EB00F59E2 /* Pods-LocationTracker-LocationTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationTracker-LocationTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		B6DBDC187520AEA2149B702813C781D4 /* KeychainSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.release.xcconfig; sourceTree = "<group>"; };
+		BA9575E25E59CBB9BC57EC6F6E51AB9F /* Pods-LocationTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationTrackerTests.modulemap"; sourceTree = "<group>"; };
+		BBF4B47505F1D893AC94261E9CBAB695 /* Pods-LocationTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE68D6C75FA344A0DC00AB173E8E8D02 /* Pods-LocationTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationTracker-frameworks.sh"; sourceTree = "<group>"; };
+		C1B8328002EB3074E26E426A7EACF3C6 /* Pods-LocationTracker-LocationTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationTracker-LocationTrackerUITests-Info.plist"; sourceTree = "<group>"; };
+		C385F14F7FAEEC99305FFFFDDA222D45 /* Pods-LocationTracker-LocationTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationTracker-LocationTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAA3466BDF1C63EE297562FE8F1823FD /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		D3FC93B8FF581D37B8347BB2004879E9 /* KeychainSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.debug.xcconfig; sourceTree = "<group>"; };
+		D49830B43FE9CE6558DEB204A8D1CD12 /* Pods-LocationTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9FE44B0E6F59D7F3F70D94F1C430C1C /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		FFF7338A9433592886E6AAEE4323E56D /* Pods-LocationTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationTracker.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2A9F195399A771D5E644536E9F6CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30528E9F78AD793A9A7CEB6C6A8A054F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5500319BA1C19ECB7D5645C3F1A6F439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B87C1AE7386E73ABC086FE8DFC99C91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CBA2411B5005CE26E7CA4D18C66FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C78BF93D39AB3565E4827960B2C953E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C731BC314E5CB6134F68C5860F0E54B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6412E0B5353AD8070E5BFF9D4CD13B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E487FC4396B5C31BE1AC4E56873AA8 /* Pods-LocationTracker-LocationTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD8A828EC9A711F99C6B2D5551C3DA9 /* Pods-LocationTracker-LocationTrackerUITests.modulemap */,
+				4E96F66B3B79EB7408D381BCA33776EF /* Pods-LocationTracker-LocationTrackerUITests-acknowledgements.markdown */,
+				C385F14F7FAEEC99305FFFFDDA222D45 /* Pods-LocationTracker-LocationTrackerUITests-acknowledgements.plist */,
+				6505FA665A3DEFF5F93FE653CB7A0E83 /* Pods-LocationTracker-LocationTrackerUITests-dummy.m */,
+				34113253E0200D77323BFC6BF6FD9CA2 /* Pods-LocationTracker-LocationTrackerUITests-frameworks.sh */,
+				C1B8328002EB3074E26E426A7EACF3C6 /* Pods-LocationTracker-LocationTrackerUITests-Info.plist */,
+				B558857E5AF75ECE18F02B0EB00F59E2 /* Pods-LocationTracker-LocationTrackerUITests-umbrella.h */,
+				69EBD17B5C91E87886274F11961FBC96 /* Pods-LocationTracker-LocationTrackerUITests.debug.xcconfig */,
+				406A0786485813B9DB5C7DC50A81D221 /* Pods-LocationTracker-LocationTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-LocationTracker-LocationTrackerUITests";
+			path = "Target Support Files/Pods-LocationTracker-LocationTrackerUITests";
+			sourceTree = "<group>";
+		};
+		334D9871FCDBDB7895D300C8A21A4CBE /* Pods-LocationTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FFF7338A9433592886E6AAEE4323E56D /* Pods-LocationTracker.modulemap */,
+				28AFE9BD6E78592C2BFDF4A3DAA5E5B1 /* Pods-LocationTracker-acknowledgements.markdown */,
+				BBF4B47505F1D893AC94261E9CBAB695 /* Pods-LocationTracker-acknowledgements.plist */,
+				81CF4C5B2D6FD090471BED3B4E341FF9 /* Pods-LocationTracker-dummy.m */,
+				BE68D6C75FA344A0DC00AB173E8E8D02 /* Pods-LocationTracker-frameworks.sh */,
+				A1361008A10AC1D86942D7FE6FA36606 /* Pods-LocationTracker-Info.plist */,
+				04DCDA78EDE85E17634AD866E03F3A3E /* Pods-LocationTracker-umbrella.h */,
+				7394C35185B5732A565100F733CB2556 /* Pods-LocationTracker.debug.xcconfig */,
+				77E62CEEF9C363495FBFC4ED1F86B785 /* Pods-LocationTracker.release.xcconfig */,
+			);
+			name = "Pods-LocationTracker";
+			path = "Target Support Files/Pods-LocationTracker";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6914C866BAE31BFBA9841BEDCD93C6A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB96A68701C841DFFA76F65DBE7E5D29 /* KeychainSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E719EB33D1F56E8E32CCD5EE3C79DF5 /* Pods-LocationTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA9575E25E59CBB9BC57EC6F6E51AB9F /* Pods-LocationTrackerTests.modulemap */,
+				D49830B43FE9CE6558DEB204A8D1CD12 /* Pods-LocationTrackerTests-acknowledgements.markdown */,
+				2513265C74925A28EB1092C976352F25 /* Pods-LocationTrackerTests-acknowledgements.plist */,
+				0653FF7B30F6A1BADF1618799FA9569D /* Pods-LocationTrackerTests-dummy.m */,
+				748F08E9E82ADABA9B103EE75E01B443 /* Pods-LocationTrackerTests-Info.plist */,
+				9F7F07E7604AD0EA15062B7782202FFC /* Pods-LocationTrackerTests-umbrella.h */,
+				A2802B6BDE44CEFBD8763C6F5BBAACBC /* Pods-LocationTrackerTests.debug.xcconfig */,
+				2E84AFE1283A893D3E2981697835B3A9 /* Pods-LocationTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-LocationTrackerTests";
+			path = "Target Support Files/Pods-LocationTrackerTests";
+			sourceTree = "<group>";
+		};
+		B00DA973CA9C8B3444685714158C4C85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE44B0E6F59D7F3F70D94F1C430C1C /* KeychainSwift.modulemap */,
+				2C0A8EBB8429A13FD79B471B95E12020 /* KeychainSwift-dummy.m */,
+				09AFB6417A66A2201318A579C231B2AA /* KeychainSwift-Info.plist */,
+				17456078214F01FDA3C509F1DFB5475F /* KeychainSwift-prefix.pch */,
+				1E9CF1441562AF1808C78D1B0BB5941B /* KeychainSwift-umbrella.h */,
+				D3FC93B8FF581D37B8347BB2004879E9 /* KeychainSwift.debug.xcconfig */,
+				B6DBDC187520AEA2149B702813C781D4 /* KeychainSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		BB96A68701C841DFFA76F65DBE7E5D29 /* KeychainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3C4F6FC730B87B16A7F7A0A92CF2EB13 /* KeychainSwift.swift */,
+				3C8CDCCBA5A8118998F805DDE346BFA6 /* KeychainSwiftAccessOptions.swift */,
+				CAA3466BDF1C63EE297562FE8F1823FD /* TegKeychainConstants.swift */,
+				B00DA973CA9C8B3444685714158C4C85 /* Support Files */,
+			);
+			name = KeychainSwift;
+			path = KeychainSwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6914C866BAE31BFBA9841BEDCD93C6A6 /* Pods */,
+				E323BD9B255EC87960F495EFD0FC5F4F /* Products */,
+				FB41483A0D05797C73216ACB41373F7C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E323BD9B255EC87960F495EFD0FC5F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */,
+				1B576670ACCF0D684DD5858270F477B1 /* Pods_LocationTracker.framework */,
+				0FFCC57DF26F86EEF0FB5207BF1A70CE /* Pods_LocationTracker_LocationTrackerUITests.framework */,
+				5BAD78CB52042CEF27B79F82E99C1704 /* Pods_LocationTrackerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB41483A0D05797C73216ACB41373F7C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				334D9871FCDBDB7895D300C8A21A4CBE /* Pods-LocationTracker */,
+				04E487FC4396B5C31BE1AC4E56873AA8 /* Pods-LocationTracker-LocationTrackerUITests */,
+				7E719EB33D1F56E8E32CCD5EE3C79DF5 /* Pods-LocationTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		871F43F105B965C08879547CD2325EBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B11184CA3994A9B777CE0E3635F25A /* Pods-LocationTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97BD77ADDCAB6FA6CF7529B5308B0918 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990B70181FC43B2730A142502843D0FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74D2F65159167A543405834E1EE09B5 /* Pods-LocationTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F079D04E30F2A9422E1424859758345A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A1A7FA15B1C9E662FCBDB321D59F2C /* Pods-LocationTracker-LocationTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6B334E2C50C2C0C66D96CADAEE2EA01 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
+			buildPhases = (
+				97BD77ADDCAB6FA6CF7529B5308B0918 /* Headers */,
+				E3B35C6F6E358284C831471583BD04CD /* Sources */,
+				4A2A9F195399A771D5E644536E9F6CF4 /* Frameworks */,
+				29186A7FC9690C20BDE41949C4FFD3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSwift;
+			productName = KeychainSwift;
+			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		347A47A18025826BB135A03589DCF3FB /* Pods-LocationTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C515329427A7F8D021647BE05CBDDF /* Build configuration list for PBXNativeTarget "Pods-LocationTracker" */;
+			buildPhases = (
+				990B70181FC43B2730A142502843D0FF /* Headers */,
+				B9AB196264EA7D4210C7E3FB20E24688 /* Sources */,
+				C731BC314E5CB6134F68C5860F0E54B7 /* Frameworks */,
+				3F77E1BD22BEC61466B9661E58F8970E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35080B184474F8970E832D075EBE51FD /* PBXTargetDependency */,
+			);
+			name = "Pods-LocationTracker";
+			productName = "Pods-LocationTracker";
+			productReference = 1B576670ACCF0D684DD5858270F477B1 /* Pods_LocationTracker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4333F0738933988CDB8C9C1A25C7575D /* Pods-LocationTracker-LocationTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14B5634AEF77C9F3E0578374A1F30D3A /* Build configuration list for PBXNativeTarget "Pods-LocationTracker-LocationTrackerUITests" */;
+			buildPhases = (
+				F079D04E30F2A9422E1424859758345A /* Headers */,
+				457F528392DB56D1F5EE7AE4DEEA1630 /* Sources */,
+				5500319BA1C19ECB7D5645C3F1A6F439 /* Frameworks */,
+				2367B35E012B543164B691B4CE0B02E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7754025422E4EBA5ED84715765B0CB /* PBXTargetDependency */,
+			);
+			name = "Pods-LocationTracker-LocationTrackerUITests";
+			productName = "Pods-LocationTracker-LocationTrackerUITests";
+			productReference = 0FFCC57DF26F86EEF0FB5207BF1A70CE /* Pods_LocationTracker_LocationTrackerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FEE601E6B6B7488E424F65A952592E1 /* Pods-LocationTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB81BEDE8C35BDC6AC1F1F31F4991BB /* Build configuration list for PBXNativeTarget "Pods-LocationTrackerTests" */;
+			buildPhases = (
+				871F43F105B965C08879547CD2325EBD /* Headers */,
+				6C904840FAC5782F81DD82E8D39BB59E /* Sources */,
+				58CBA2411B5005CE26E7CA4D18C66FA4 /* Frameworks */,
+				8B7B00D61ECA9DDBF9E1F199A94F3482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B86B4B75249E884A4F91D385D9215AB /* PBXTargetDependency */,
+			);
+			name = "Pods-LocationTrackerTests";
+			productName = "Pods-LocationTrackerTests";
+			productReference = 5BAD78CB52042CEF27B79F82E99C1704 /* Pods_LocationTrackerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E323BD9B255EC87960F495EFD0FC5F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
+				347A47A18025826BB135A03589DCF3FB /* Pods-LocationTracker */,
+				4333F0738933988CDB8C9C1A25C7575D /* Pods-LocationTracker-LocationTrackerUITests */,
+				4FEE601E6B6B7488E424F65A952592E1 /* Pods-LocationTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2367B35E012B543164B691B4CE0B02E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29186A7FC9690C20BDE41949C4FFD3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F77E1BD22BEC61466B9661E58F8970E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7B00D61ECA9DDBF9E1F199A94F3482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		457F528392DB56D1F5EE7AE4DEEA1630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C70628F5B8F895FD5F77CA2F9691EFB /* Pods-LocationTracker-LocationTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C904840FAC5782F81DD82E8D39BB59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07E6B1B5583541C5FC00D6C83FBFC97 /* Pods-LocationTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9AB196264EA7D4210C7E3FB20E24688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E2BFAEDC35BCC682F46198AD138DB9 /* Pods-LocationTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B35C6F6E358284C831471583BD04CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B255EB0716A1BB473E696C20812C697 /* KeychainSwift-dummy.m in Sources */,
+				4DC6C132AEF3E02BDD5ABC89333233B3 /* KeychainSwift.swift in Sources */,
+				485A776035D4B1EF97E8AE0E95A66502 /* KeychainSwiftAccessOptions.swift in Sources */,
+				320E018022758AFD782991C7D8854DB1 /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B86B4B75249E884A4F91D385D9215AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LocationTracker";
+			target = 347A47A18025826BB135A03589DCF3FB /* Pods-LocationTracker */;
+			targetProxy = 9E59A4639C5025D44E49B956F304B512 /* PBXContainerItemProxy */;
+		};
+		35080B184474F8970E832D075EBE51FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = 3F353FFC3AC35BB7FFE4F9729C7E794D /* PBXContainerItemProxy */;
+		};
+		CD7754025422E4EBA5ED84715765B0CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = F0AB8B66F95E28BF3B6617FA09D097CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E9E868CECA34464B31C39D388D6A61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7394C35185B5732A565100F733CB2556 /* Pods-LocationTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationTracker/Pods-LocationTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationTracker/Pods-LocationTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B98EEBD0154B9FD2634BC9AE8F9078A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EBD17B5C91E87886274F11961FBC96 /* Pods-LocationTracker-LocationTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationTracker-LocationTrackerUITests/Pods-LocationTracker-LocationTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationTracker-LocationTrackerUITests/Pods-LocationTracker-LocationTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		593E0D9A581ECC7BB34AAD38EBF4854E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DBDC187520AEA2149B702813C781D4 /* KeychainSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63051A5E9DE504F4E38528B4E55996DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FC93B8FF581D37B8347BB2004879E9 /* KeychainSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		930148318B4C9F3D0509B0A452AC11C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2802B6BDE44CEFBD8763C6F5BBAACBC /* Pods-LocationTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationTrackerTests/Pods-LocationTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationTrackerTests/Pods-LocationTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94E3035041098E2543BBCECAE581F431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E84AFE1283A893D3E2981697835B3A9 /* Pods-LocationTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationTrackerTests/Pods-LocationTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationTrackerTests/Pods-LocationTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A12289F37C2CF2D40A71737AE419EDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406A0786485813B9DB5C7DC50A81D221 /* Pods-LocationTracker-LocationTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationTracker-LocationTrackerUITests/Pods-LocationTracker-LocationTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationTracker-LocationTrackerUITests/Pods-LocationTracker-LocationTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B76F823E91A4507FBD75402AEB49060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E62CEEF9C363495FBFC4ED1F86B785 /* Pods-LocationTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocationTracker/Pods-LocationTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocationTracker/Pods-LocationTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14B5634AEF77C9F3E0578374A1F30D3A /* Build configuration list for PBXNativeTarget "Pods-LocationTracker-LocationTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B98EEBD0154B9FD2634BC9AE8F9078A /* Debug */,
+				A12289F37C2CF2D40A71737AE419EDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB81BEDE8C35BDC6AC1F1F31F4991BB /* Build configuration list for PBXNativeTarget "Pods-LocationTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930148318B4C9F3D0509B0A452AC11C1 /* Debug */,
+				94E3035041098E2543BBCECAE581F431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6B334E2C50C2C0C66D96CADAEE2EA01 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63051A5E9DE504F4E38528B4E55996DA /* Debug */,
+				593E0D9A581ECC7BB34AAD38EBF4854E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C515329427A7F8D021647BE05CBDDF /* Build configuration list for PBXNativeTarget "Pods-LocationTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9E868CECA34464B31C39D388D6A61 /* Debug */,
+				B76F823E91A4507FBD75402AEB49060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
